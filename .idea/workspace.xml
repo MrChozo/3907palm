@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59a92ed-715c-49f5-8b4e-6696a5a526a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/migrations/2020_03_01_081215_create_contacts_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/docker-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/docker-tutorial.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/ContactsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/ContactsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/src/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/contacts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/contacts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="contacts: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
@@ -137,6 +159,10 @@
       <path value="$PROJECT_DIR$/src/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/src/vendor/doctrine/event-manager" />
       <path value="$PROJECT_DIR$/src/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/src/vendor/propaganistas/laravel-phone" />
+      <path value="$PROJECT_DIR$/src/vendor/giggsey/libphonenumber-for-php" />
+      <path value="$PROJECT_DIR$/src/vendor/giggsey/locale" />
+      <path value="$PROJECT_DIR$/src/vendor/league/iso3166" />
     </include_path>
   </component>
   <component name="ProjectId" id="1YMJB8Hn3T6uCBwMp8xHq9yt4VA" />
@@ -200,7 +226,7 @@
       <workItem from="1583046049998" duration="1413000" />
       <workItem from="1583047551952" duration="74000" />
       <workItem from="1583047643931" duration="50000" />
-      <workItem from="1583047742594" duration="2997000" />
+      <workItem from="1583047742594" duration="4494000" />
     </task>
     <task id="LOCAL-00001" summary="Kill the Foo stuff">
       <created>1583038791519</created>
@@ -216,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583049680679</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Contacts migration; Install IDE Helper">
+      <created>1583051088384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583051088384</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +273,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Kill the Foo stuff" />
     <MESSAGE value="Contact and Home Controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact and Home Controllers" />
+    <MESSAGE value="Contacts migration; Install IDE Helper" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contacts migration; Install IDE Helper" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -260,10 +294,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="187" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583049469319" />
-    <state x="585" y="54" key="CommitChangelistDialog2" timestamp="1583049679698">
+    <state x="585" y="54" key="CommitChangelistDialog2" timestamp="1583051087605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="54" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583049679698" />
+    <state x="585" y="54" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583051087605" />
     <state x="490" y="174" key="DBNavigator.ProjectSettingsDialog" timestamp="1583049141804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -272,6 +306,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="822" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583050454165" />
+    <state width="196" height="539" key="HiddenNamespacesPopup" timestamp="1583052284897">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="539" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1583052284897" />
     <state x="794" y="438" key="NewPhpFileDialog" timestamp="1583049624987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

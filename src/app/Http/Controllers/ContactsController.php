@@ -13,6 +13,9 @@ class ContactsController extends Controller
 
     public function store()
     {
-
+        request()->validate([
+            'name' => 'required',
+            'description' => 'required',
+        ]);
     }
 }
