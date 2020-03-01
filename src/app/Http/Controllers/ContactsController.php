@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Contact;
 use Illuminate\Http\Request;
 
 class ContactsController extends Controller
@@ -13,9 +14,15 @@ class ContactsController extends Controller
 
     public function store()
     {
-        request()->validate([
+        $attributes = request()->validate([
             'name' => 'required',
             'description' => 'required',
+            'phone' => 'phone:US,BE',
+            'email' => 'filter',
         ]);
+
+        $contact = Contact::create($attributes);
+
+        event(new ContactSubmitted($contact));
     }
 }
