@@ -11,7 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    $foo = App\Foo::find(1);
-    return view('welcome', compact('foo'));
-});
+Route::get('/', 'HomeController@index')->name('home.index');
+Route::post('/', 'ContactsController@store')->name('contacts.store');
