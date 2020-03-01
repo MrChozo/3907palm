@@ -1,7 +1,7 @@
-FROM php:7.2-apache
+FROM phpstorm/php-73-apache-xdebug-27
 MAINTAINER Webriculture <info@webriculture.com>
 
-RUN apt-get update
+RUN apt-get -o Acquire::Check-Valid-Until=false update
 RUN apt-get install -y libzip-dev libjpeg62-turbo-dev libpng-dev libfreetype6-dev
 RUN docker-php-ext-install pdo_mysql mbstring zip exif pcntl
 RUN docker-php-ext-configure gd --with-gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ --with-png-dir=/usr/include/

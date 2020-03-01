@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Contact;
+use App\Events\ContactSubmitted;
 use Illuminate\Http\Request;
 
 class ContactsController extends Controller
@@ -18,7 +19,7 @@ class ContactsController extends Controller
             'name' => 'required',
             'description' => 'required',
             'phone' => 'phone:US,BE',
-            'email' => 'filter',
+            'email' => 'email:rfc,dns',
         ]);
 
         $contact = Contact::create($attributes);

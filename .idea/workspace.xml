@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a59a92ed-715c-49f5-8b4e-6696a5a526a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Mail/ContactMail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/ContactsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/ContactsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +178,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../peripole" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -189,6 +191,16 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MrCho\docker\3907palm\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -222,7 +234,7 @@
       <workItem from="1583046049998" duration="1413000" />
       <workItem from="1583047551952" duration="74000" />
       <workItem from="1583047643931" duration="50000" />
-      <workItem from="1583047742594" duration="7908000" />
+      <workItem from="1583047742594" duration="10422000" />
     </task>
     <task id="LOCAL-00001" summary="Kill the Foo stuff">
       <created>1583038791519</created>
@@ -259,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583058188912</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Contact Email">
+      <created>1583059197333</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583059197333</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,10 +313,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="674" y="77" key="#.docker/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1583047793359" />
-    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583049204951">
+    <state x="762" y="149" key="#Docker" timestamp="1583060221696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583049204951" />
+    <state x="762" y="149" key="#Docker/0.0.1920.1040@0.0.1920.1040" timestamp="1583060221696" />
+    <state x="624" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583060223514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="146" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583060223514" />
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583047226464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -310,18 +333,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583053582098" />
-    <state x="585" y="54" key="CommitChangelistDialog2" timestamp="1583058188210">
+    <state x="585" y="54" key="CommitChangelistDialog2" timestamp="1583059196660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="54" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583058188210" />
+    <state x="585" y="54" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583059196660" />
     <state x="490" y="174" key="DBNavigator.ProjectSettingsDialog" timestamp="1583049141804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="174" key="DBNavigator.ProjectSettingsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583049141804" />
-    <state x="822" y="259" key="FileChooserDialogImpl" timestamp="1583053502789">
+    <state x="1008" y="380" key="DockerComposeFileDialog" timestamp="1583060162811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="822" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583053502789" />
+    <state x="1008" y="380" key="DockerComposeFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583060162811" />
+    <state x="822" y="259" key="FileChooserDialogImpl" timestamp="1583060161291">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="822" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583060161291" />
     <state width="196" height="539" key="HiddenNamespacesPopup" timestamp="1583052284897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -334,14 +361,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="331" y="292" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583052943573" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1583058318083">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1583059413395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1583058318083" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1583058193247">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1583059413395" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1583063370083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583058193247" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583063370083" />
     <state x="656" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1583047779974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -354,9 +381,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583053481362" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583058736437">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583059902730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583058736437" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583059902730" />
   </component>
 </project>
