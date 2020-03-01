@@ -85,8 +85,6 @@
                 </div>
 
                 <div class="links">
-                    <p>Foo's id is {{ $foo->id }}</p>
-                    <a href="https://brianweston.me">Foo's name is {{ $foo->name }}</a>
                 </div>
             </div>
         </div>
