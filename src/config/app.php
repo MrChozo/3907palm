@@ -165,7 +165,6 @@ return [
         /*
          * Package Service Providers...
          */
-        Propaganistas\LaravelPhone\PhoneServiceProvider::class,
 
         /*
          * Application Service Providers...

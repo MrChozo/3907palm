@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a59a92ed-715c-49f5-8b4e-6696a5a526a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/ContactsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/ContactsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Mail/ContactMail.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/lang/en/validation.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +175,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../peripole" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -223,7 +222,7 @@
       <workItem from="1583046049998" duration="1413000" />
       <workItem from="1583047551952" duration="74000" />
       <workItem from="1583047643931" duration="50000" />
-      <workItem from="1583047742594" duration="6974000" />
+      <workItem from="1583047742594" duration="7908000" />
     </task>
     <task id="LOCAL-00001" summary="Kill the Foo stuff">
       <created>1583038791519</created>
@@ -253,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583052598117</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Contact Email">
+      <created>1583058188912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583058188912</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +285,8 @@
     <MESSAGE value="Contact and Home Controllers" />
     <MESSAGE value="Contacts migration; Install IDE Helper" />
     <MESSAGE value="View work, etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="View work, etc." />
+    <MESSAGE value="Contact Email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact Email" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -303,10 +310,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583053582098" />
-    <state x="585" y="54" key="CommitChangelistDialog2" timestamp="1583052597313">
+    <state x="585" y="54" key="CommitChangelistDialog2" timestamp="1583058188210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="54" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583052597313" />
+    <state x="585" y="54" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583058188210" />
     <state x="490" y="174" key="DBNavigator.ProjectSettingsDialog" timestamp="1583049141804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,14 +334,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="331" y="292" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583052943573" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1583052779600">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1583058318083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1583052779600" />
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1583052611033">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1583058318083" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1583058193247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583052611033" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583058193247" />
     <state x="656" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1583047779974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -347,9 +354,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583053481362" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583053903381">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583058736437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583053903381" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583058736437" />
   </component>
 </project>
