@@ -1,0 +1,35 @@
+div#app {
+  display: flex;
+  flex-direction: column;
+}
+header {
+}
+nav {
+}
+div#jumbotron {
+  width: 100%;
+  background: red;
+}
+div#jumbotron img {
+  max-width: 1920px;
+  width: 100vw;
+}
+div#full-wide {
+  width: 100%;
+}
+div#carousel img {
+  display: flex;
+  width: 30%;
+}
+main {
+  background: blue;
+  width: 59%;
+}
+aside {
+  background: yellow;
+  width: 40%;
+}
+footer {
+  width: 100%;
+  background: green;
+}
