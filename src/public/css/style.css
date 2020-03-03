@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+}
+nav {
+}
+#jumbotron {
+    width: 100%;
+    background: red;
+}
+#jumbotron img {
+    width: 100%;
+}
+#carousel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#carousel img {
+    width: 33.3333333333%;
+}
+main {
+    background: blue;
+    width: 60%;
+}
+aside {
+    background: yellow;
+    width: 40%;
+}
+footer {
+    width: 100%;
+    background: green;
+}
