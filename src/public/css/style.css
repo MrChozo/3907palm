@@ -7,10 +7,17 @@ header {
 nav {
 }
 #jumbotron {
+    position: relative;
     width: 100%;
     background: red;
 }
 #jumbotron img {
+    width: 100%;
+}
+#jumbotron div {
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 0;
     width: 100%;
 }
 #carousel {

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BETA - 3907 Palm Boulevard</title>
+    <title><?= $site_title ?></title>
 
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -11,12 +11,14 @@
     <nav></nav>
 </header>
 <section id="jumbotron">
-    <a href="https://www.zillow.com/homes/3907-Palm-Boulevard-Isle-of-Palms,-SC-29451_rb/10937177_zpid/">
-        <h1>3907 Palm Boulevard</h1>
-        <h1>Isle of Palms, SC 29451</h1>
-        <h1>$1,149,900</h1>
-    </a>
     <img src="../img/23-Left%20Side%2040FT-MLS.jpg" alt="Looking down on the property">
+    <div>
+        <a href="https://www.zillow.com/homes/3907-Palm-Boulevard-Isle-of-Palms,-SC-29451_rb/10937177_zpid/">
+            <h1>3907 Palm Boulevard</h1>
+            <h1>Isle of Palms, SC 29451</h1>
+            <h1>$1,149,900</h1>
+        </a>
+    </div>
 </section>
 <main>
     <!--
