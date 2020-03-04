@@ -1,3 +1,8 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -6,37 +11,44 @@ header {
 }
 nav {
 }
+main {
+    background: blue;
+    width: 100%;
+}
+footer {
+    width: 100%;
+    background: green;
+}
+a, h1 {
+    color: white;
+}
 #jumbotron {
     position: relative;
     width: 100%;
-    background: red;
-}
-#jumbotron img {
-    width: 100%;
+    background-image: url(../img/23-Left%20Side%2040FT-MLS.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin-bottom: 1em;
 }
 #jumbotron div {
     background: rgba(0, 0, 0, .5);
     position: absolute;
     bottom: 0;
     width: 100%;
+    text-align: center;
 }
 #carousel {
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-bottom: 1em;
 }
 #carousel img {
     width: 33.3333333333%;
 }
-main {
-    background: blue;
-    width: 60%;
-}
-aside {
-    background: yellow;
+section#list-image-left img {
     width: 40%;
-}
-footer {
-    width: 100%;
-    background: green;
 }
