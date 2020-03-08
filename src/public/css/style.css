@@ -1,54 +1,67 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
 }
 body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 header {
 }
 nav {
 }
 main {
-    background: blue;
-    width: 100%;
+  width: 100%;
 }
 footer {
-    width: 100%;
-    background: green;
+  width: 100%;
 }
-a, h1 {
-    color: white;
+a {
+  color: black;
+}
+h1,
+#jumbotron div a {
+  color: white;
 }
 #jumbotron {
-    position: relative;
-    width: 100%;
-    background-image: url(../img/23-Left%20Side%2040FT-MLS.jpg);
-    background-size: cover;
-    background-position: center;
-    background-position-y: 60%;
-    background-repeat: no-repeat;
-    height: 700px;
-    margin-bottom: 1em;
+  background-image: url(../img/23-Left%20Side%2040FT-MLS.jpg);
+  background-position: center;
+  background-position-y: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin-bottom: 1em;
+  position: relative;
+  width: 100%;
 }
 #jumbotron div {
-    background: rgba(0, 0, 0, .5);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+  background: rgba(0, 0, 0, .5);
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
 #carousel {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+  width: 100%;
 }
 #carousel img {
-    width: 33.3333333333%;
+  width: 33.3333333333%;
 }
-section#list-image-left img {
-    width: 40%;
+section#list-no-image {
+  text-align: center;
+}
+section#list-no-image ul {
+  display: block;
+  margin: 0 auto;
+}
+section#list-no-image li {
+  padding: 1em 0;
+}
+
+@media only screen and (max-width: 600px) {
+
 }
