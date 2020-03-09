@@ -27,6 +27,7 @@ section#jumbotron div a {
 section#jumbotron {
   background-image: url(../img/23-Left%20Side%2040FT-MLS.jpg);
   background-position: center;
+  background-position-x: -40px;
   background-position-y: 60%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,7 +64,7 @@ section#list-no-image li {
   list-style: none;
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 360px) {
   section#jumbotron {
     height: 640px;
     width: 100%;
