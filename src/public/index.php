@@ -12,14 +12,14 @@ if (defined('IMG')) {
 }
 
 
-// Set up view vars
+// Set up/Include view vars
 $site_title = '3907 Palm Boulevard';
 if ($env === 'dev') {
   $site_title = 'DEV - ' . $site_title;
 }
 
-require 'html/image_data.php';
+require 'views/long_picture_tags_as_vars.php';
 
 
 // Render view
-require 'html/home.php';
+require 'views/home.php';
