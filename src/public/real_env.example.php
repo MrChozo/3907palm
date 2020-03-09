@@ -1,3 +1,4 @@
 <?php
 // 'prod' or 'dev'
-$real_env = 'dev';
+define('ENV', 'dev');
+define('IMG', '../img/');
