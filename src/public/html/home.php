@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
   <title><?= $site_title ?></title>
 
   <link rel="stylesheet" href="../css/style.css">

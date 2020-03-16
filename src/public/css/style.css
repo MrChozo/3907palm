@@ -25,7 +25,7 @@ section#jumbotron div a {
   color: white;
 }
 section#jumbotron {
-  background-image: url(../img/23-Left%20Side%2040FT-MLS.jpg);
+  background-image: url(https://res.cloudinary.com/mrchozo/image/upload/v1583714853/23-Left_Side_40FT-MLS_abo6jp.jpg);
   background-position: center;
   background-position-y: 60%;
   background-repeat: no-repeat;
@@ -63,17 +63,19 @@ section#list-no-image li {
   list-style: none;
 }
 
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 1920px) {
+}
+@media only screen and (max-width: 1366px) {
+}
+@media only screen and (max-width: 768px) {
   section#jumbotron {
-    height: 640px;
-    width: 100%;
   }
 }
 @media only screen and (max-width: 375px) {
 }
-@media only screen and (max-width: 768px) {
-}
-@media only screen and (max-width: 1366px) {
-}
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 360px) {
+  section#jumbotron {
+    height: 70vh;
+    background-position-x: 55.6%;
+  }
 }
