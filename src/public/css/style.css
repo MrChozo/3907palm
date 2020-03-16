@@ -1,5 +1,6 @@
 body, html {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   height: 100%;
   margin: 0;
 }
@@ -17,6 +18,9 @@ main {
 footer {
   width: 100%;
 }
+h2 {
+  font-size: 1.25em;
+}
 a {
   color: black;
 }
@@ -27,10 +31,11 @@ section#jumbotron div a {
 section#jumbotron {
   background-image: url(https://res.cloudinary.com/mrchozo/image/upload/v1583714853/23-Left_Side_40FT-MLS_abo6jp.jpg);
   background-position: center;
+  background-position-x: 55.6%;
   background-position-y: 60%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 70vh;
   margin-bottom: 1em;
   position: relative;
   width: 100%;
@@ -42,40 +47,57 @@ section#jumbotron div {
   text-align: center;
   width: 100%;
 }
-section#carousel {
+
+section#three-images {
   display: flex;
   flex-direction: row;
   margin-bottom: 1em;
-  width: 100%;
 }
-section#carousel img {
+section#three-images img {
   width: 33.3333333333%;
 }
+
+section#left-image,
+section#right-image {
+  display: flex;
+  text-align: left;
+}
+section#left-image {
+  flex-direction: column;
+}
+section#right-image {
+  flex-direction: column-reverse;
+}
+section#left-image img,
+section#right-image img {
+  width: 100%;
+}
+section#left-image ul,
+section#right-image ul {
+  padding-right: 1em;
+}
+
+
 section#list-no-image {
   text-align: center;
 }
 section#list-no-image ul {
   display: block;
   margin: 0 auto;
+  padding: 0 1em;
 }
 section#list-no-image li {
   padding: 1em 0;
   list-style: none;
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-width: 360px) {
 }
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-width: 375px) {
 }
-@media only screen and (max-width: 768px) {
-  section#jumbotron {
-  }
+@media only screen and (min-width: 768px) {
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 1366px) {
 }
-@media only screen and (max-width: 360px) {
-  section#jumbotron {
-    height: 70vh;
-    background-position-x: 55.6%;
-  }
+@media only screen and (min-width: 1920px) {
 }
