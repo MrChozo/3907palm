@@ -13,6 +13,7 @@ header {
 nav {
 }
 main {
+  position: relative;
   width: 100%;
 }
 footer {
@@ -27,9 +28,10 @@ a {
 h1,
 section#jumbotron div a {
   color: white;
+  margin: 0.5em 0;
 }
 section#jumbotron {
-  background-image: url(https://res.cloudinary.com/mrchozo/image/upload/v1583714853/23-Left_Side_40FT-MLS_abo6jp.jpg);
+  background-image: url(https://res.cloudinary.com/mrchozo/image/upload/v1583714853/3907palm/23-Left_Side_40FT-MLS_abo6jp.jpg);
   background-position: center;
   background-position-x: 55.6%;
   background-position-y: 60%;
@@ -48,6 +50,7 @@ section#jumbotron div {
   width: 100%;
 }
 
+
 section#three-images {
   display: flex;
   flex-direction: row;
@@ -56,6 +59,7 @@ section#three-images {
 section#three-images img {
   width: 33.3333333333%;
 }
+
 
 section#left-image,
 section#right-image {
@@ -78,6 +82,30 @@ section#right-image ul {
 }
 
 
+section#social {
+  position: fixed;
+  bottom: 0;
+  height: 2em;
+  width: 100%;
+  background: rgba(193, 193, 193, 0.45);
+  padding: .75em .5em;
+}
+section#social div {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 25%;
+  border: 2px solid #006aff;
+  line-height: 0;
+  border-radius: 5px;
+  display: inline;
+}
+section#social div img {
+  padding: .5em 0;
+  height: 15px;
+  margin: 0;
+}
+
+
 section#list-no-image {
   text-align: center;
 }
@@ -90,6 +118,7 @@ section#list-no-image li {
   padding: 1em 0;
   list-style: none;
 }
+
 
 @media only screen and (min-width: 360px) {
 }

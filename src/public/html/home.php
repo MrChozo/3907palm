@@ -14,12 +14,9 @@
 <main>
   <section id="jumbotron">
     <div>
-      <a href="https://www.zillow.com/homes/3907-Palm-Boulevard-Isle-of-Palms,-SC-29451_rb/10937177_zpid/"
-         target="_blank" rel="noreferrer noopener">
-        <h1>3907 Palm Boulevard</h1>
-        <h1>Isle of Palms, SC 29451</h1>
-        <h1>$1,149,900</h1>
-      </a>
+      <h1>3907 Palm Boulevard</h1>
+      <h1>Isle of Palms, SC 29451</h1>
+      <h1>$1,149,900</h1>
     </div>
   </section>
   <section id="three-images">
@@ -58,7 +55,21 @@
   <section class="heading">
     <h2>Contact Connie Gawrych for more info at <a href="mailto:cgawrych@gmail.com">cgawrych@gmail.com</a></h2>
   </section>
-
+  <section id="social">
+    <!-- https://www.redfin.com/SC/Isle-of-Palms/3907-Palm-Blvd-29451/home/108166057-->
+    <!-- https://www.trulia.com/p/sc/isle-of-palms/3907-palm-blvd-isle-of-palms-sc-29451--2028057847-->
+    <!-- https://www.realtor.com/realestateandhomes-detail/3907-Palm-Blvd_Isle-of-Palms_SC_29451_M54189-05945-->
+    <?php
+    for ($i = 0; $i < 4; $i++) {
+      echo '
+        <a href="https://www.zillow.com/homes/3907-Palm-Boulevard-Isle-of-Palms,-SC-29451_rb/10937177_zpid/"
+           target="_blank" rel="noreferrer noopener">
+          <div><img src="../img/Zillow_Wordmark_Blue_RGB lrg.png" alt="Zillow logo"></div>
+        </a>
+      ';
+    }
+    ?>
+  </section>
   <!--
     843-224-7278
 
