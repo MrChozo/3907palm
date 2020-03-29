@@ -8,22 +8,22 @@ use Illuminate\Http\Request;
 
 class ContactsController extends Controller
 {
-    public function create()
-    {
-        return view('contacts.create');
-    }
+  public function create()
+  {
+    return view('contacts.create');
+  }
 
-    public function store()
-    {
-        $attributes = request()->validate([
-            'name' => 'required',
-            'description' => 'required',
-            'phone' => 'phone:US,BE',
-            'email' => 'email:rfc,dns',
-        ]);
+  public function store()
+  {
+    $attributes = request()->validate([
+        'name' => 'required',
+        'description' => 'required',
+        'phone' => 'phone:US,BE',
+        'email' => 'email:rfc,dns',
+    ]);
 
-        $contact = Contact::create($attributes);
+    $contact = Contact::create($attributes);
 
-        event(new ContactSubmitted($contact));
-    }
+    event(new ContactSubmitted($contact));
+  }
 }
