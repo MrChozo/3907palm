@@ -1,5 +1,5 @@
 body, html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   height: 100%;
   margin: 0;
@@ -19,8 +19,15 @@ main {
 footer {
   width: 100%;
 }
+h1 {
+  font-size: 2em;
+}
 h2 {
   font-size: 1.25em;
+}
+h2.city {
+  color: white;
+  font-size: 1em;
 }
 a {
   color: black;
@@ -85,6 +92,21 @@ section#right-image ul {
   padding-right: 1em;
 }
 
+section.email_connie {
+  background: #8db2f5;
+  padding: 1em 0;
+}
+section.email_connie p {
+  margin: 0;
+}
+section.email_connie p.foo {
+  margin-top: 1em;
+}
+section.email_connie ul {
+  text-decoration: none;
+  padding: 0;
+  margin-top: 0;
+}
 
 section#social {
   display: none;

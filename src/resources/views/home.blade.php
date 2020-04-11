@@ -4,9 +4,13 @@
   <section id="jumbotron">
     <div>
       <h1>3907 Palm Boulevard</h1>
-      <h1>Isle of Palms, SC 29451</h1>
+      <h2 class="city">Isle of Palms, SC 29451</h2>
       <h1>$1,149,900</h1>
     </div>
+  </section>
+  <section class="heading">
+    <h2>Contact Connie Gawrych for more info at <a href="mailto:cgawrych@gmail.com">cgawrych@gmail.com</a> or
+      <a href="tel:8432247278">(843) 224-7278</a></h2>
   </section>
   <section id="three-images">
     @php
@@ -45,14 +49,21 @@
     <a href="{{ $survey }}" target="_blank"><img alt="3907 Palm Boulevard - site survey results"
                                                  src="{{ $survey }}"></a>
   </section>
-  <section class="heading">
-    <h2>Contact Connie Gawrych for more info at <a href="mailto:cgawrych@gmail.com">cgawrych@gmail.com</a></h2>
+  <section class="email_connie">
+    <p>Contact Connie Gawrych for more info at <a href="mailto:cgawrych@gmail.com">cgawrych@gmail.com</a> or
+      <a href="tel:8432247278">(843) 224-7278</a></p>
+    <p class="foo">Links:</p>
+    <ul>
+      <li><a href="https://www.facebook.com/cgawrych">Facebook</a></li>
+      <li><a href="https://www.redfin.com/SC/Isle-of-Palms/3907-Palm-Blvd-29451/home/108166057"
+             target="_blank">Redfin</a></li>
+      <li><a href="https://www.trulia.com/p/sc/isle-of-palms/3907-palm-blvd-isle-of-palms-sc-29451--2028057847"
+             target="_blank">Trulia</a></li>
+      <li><a href="https://www.realtor.com/realestateandhomes-detail/3907-Palm-Blvd_Isle-of-Palms_SC_29451_M54189-05945"
+             target="_blank">Realtor.com</a></li>
+    </ul>
   </section>
   <section id="social">
-    <!-- https://www.redfin.com/SC/Isle-of-Palms/3907-Palm-Blvd-29451/home/108166057-->
-    <!-- https://www.trulia.com/p/sc/isle-of-palms/3907-palm-blvd-isle-of-palms-sc-29451--2028057847-->
-    <!-- https://www.realtor.com/realestateandhomes-detail/3907-Palm-Blvd_Isle-of-Palms_SC_29451_M54189-05945-->
-
     @for ($i = 0; $i < 4; $i++)
       <a href="https://www.zillow.com/homes/3907-Palm-Boulevard-Isle-of-Palms,-SC-29451_rb/10937177_zpid/"
          target="_blank" rel="noreferrer noopener">
