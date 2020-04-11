@@ -9,7 +9,9 @@
     </div>
   </section>
   <section id="three-images">
-    @php $front = 'https://res.cloudinary.com/mrchozo/image/upload/v1583714858/3907palm/1-High_Aerial_Shots-MLS_mjxghd.jpg' @endphp
+    @php
+      $front = 'https://res.cloudinary.com/mrchozo/image/upload/v1583714858/3907palm/1-High_Aerial_Shots-MLS_mjxghd.jpg'
+    @endphp
     <a href="{{ $front }}" target="_blank"><img alt="3906 Palm Boulevard - front of house" src="{{ $front }}"></a>
 
     @php $beach = 'https://res.cloudinary.com/mrchozo/image/upload/v1583714823/3907palm/0f1c41c5-c8e5-4db4-b93a-cb7908c867f9.f10_vciuvj.webp' @endphp
@@ -39,7 +41,7 @@
       <li>Large lot with trees trimmed to provide most room for building</li>
       <li>Second row from the beach</li>
     </ul>
-    @php $survey = 'https://res.cloudinary.com/mrchozo/image/upload/v1583714835/3907palm/PALM-BLVD-3907fi-2_kiuqut.jpg @endphp
+    @php $survey = 'https://res.cloudinary.com/mrchozo/image/upload/v1583714835/3907palm/PALM-BLVD-3907fi-2_kiuqut.jpg' @endphp
     <a href="{{ $survey }}" target="_blank"><img alt="3907 Palm Boulevard - site survey results"
                                                  src="{{ $survey }}"></a>
   </section>

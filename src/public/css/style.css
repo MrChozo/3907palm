@@ -87,6 +87,7 @@ section#right-image ul {
 
 
 section#social {
+  display: none;
   position: fixed;
   bottom: 0;
   height: 2em;
