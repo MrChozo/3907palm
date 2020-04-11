@@ -48,13 +48,14 @@
     @php $survey = 'https://res.cloudinary.com/mrchozo/image/upload/v1583714835/3907palm/PALM-BLVD-3907fi-2_kiuqut.jpg' @endphp
     <a href="{{ $survey }}" target="_blank"><img alt="3907 Palm Boulevard - site survey results"
                                                  src="{{ $survey }}"></a>
+    <h3>Site Survey</h3>
   </section>
   <section class="email_connie">
     <p>Contact Connie Gawrych for more info at <a href="mailto:cgawrych@gmail.com">cgawrych@gmail.com</a> or
       <a href="tel:8432247278">(843) 224-7278</a></p>
     <p class="foo">Links:</p>
     <ul>
-      <li><a href="https://www.facebook.com/cgawrych">Facebook</a></li>
+      <li><a href="https://www.facebook.com/cgawrych" target="_blank">Facebook</a></li>
       <li><a href="https://www.redfin.com/SC/Isle-of-Palms/3907-Palm-Blvd-29451/home/108166057"
              target="_blank">Redfin</a></li>
       <li><a href="https://www.trulia.com/p/sc/isle-of-palms/3907-palm-blvd-isle-of-palms-sc-29451--2028057847"

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
   <title><?= $site_title ?></title>
 
-  <link rel="stylesheet" href="../css/style1.css">
+  <link rel="stylesheet" href="../css/style0.css">
 </head>
 <body>
 <header>
